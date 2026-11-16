@@ -9,7 +9,9 @@ public record AccountOut(
 
     String id,
     String name,
-    String email
+    String email,
+    // papel da conta para o RBAC: "USER" (padrão) ou "ADMIN"
+    String role
 
 ) {
 
